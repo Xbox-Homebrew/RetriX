@@ -15,7 +15,7 @@ namespace RetriX.UWP.Services
         {
             yield return GameSystemViewModel.MakeNES(LibRetriX.FCEUMM.Core.Instance, fileSystem);
             yield return GameSystemViewModel.MakeSNES(LibRetriX.Snes9X.Core.Instance, fileSystem);
-            //yield return GameSystemViewModel.MakeN64(LibRetriX.ParallelN64.Core.Instance, fileSystem);
+            yield return GameSystemViewModel.MakeN64(LibRetriX.ParallelN64.Core.Instance, fileSystem);
             yield return GameSystemViewModel.MakeGB(LibRetriX.Gambatte.Core.Instance, fileSystem);
             yield return GameSystemViewModel.MakeGBA(LibRetriX.VBAM.Core.Instance, fileSystem);
             yield return GameSystemViewModel.MakeDS(LibRetriX.MelonDS.Core.Instance, fileSystem);

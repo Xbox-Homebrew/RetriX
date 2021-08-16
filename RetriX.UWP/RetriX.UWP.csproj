@@ -239,6 +239,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="LibRetriX">
+      <Version>0.1.29</Version>
+    </PackageReference>
     <PackageReference Include="LibRetriX.BeetleNGP">
       <Version>0.1.29</Version>
     </PackageReference>
@@ -272,7 +275,13 @@
     <PackageReference Include="LibRetriX.Nestopia">
       <Version>0.1.29</Version>
     </PackageReference>
+    <PackageReference Include="LibRetriX.ParallelN64">
+      <Version>0.1.29</Version>
+    </PackageReference>
     <PackageReference Include="LibRetriX.PicoDrive">
+      <Version>0.1.29</Version>
+    </PackageReference>
+    <PackageReference Include="LibRetriX.RetroBindings">
       <Version>0.1.29</Version>
     </PackageReference>
     <PackageReference Include="LibRetriX.Snes9X">
